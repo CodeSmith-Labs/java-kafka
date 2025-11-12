@@ -1,4 +1,4 @@
-package org.codesmith.wordcountdemo;
+package org.codesmith.countcharacters;
 
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
