@@ -14,7 +14,7 @@ import java.util.Locale;
  * Date: 11/11/25
  */
 
-public class KafkaWordCountStream {
+class KafkaWordCountStream {
 
     public static final String INPUT_TOPIC = "streams-plaintext-input";
     public static final String OUTPUT_TOPIC = "streams-wordcount-output";

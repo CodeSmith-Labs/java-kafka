@@ -1,8 +1,4 @@
-package org.codesmith.wordcountdemo;
-
-import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.streams.StreamsConfig;
+package org.codesmith.readandwrtie;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,10 +9,9 @@ import java.util.Properties;
  * Author: subramanyamadimulam
  * Date: 11/11/25
  */
-
 class KafkaStreamsConfig {
 
-    private static final String CONFIG_PROPERTIES_FILE_PATH = "config.properties";
+    private static final String CONFIG_PROPERTIES_FILE_PATH = "readwrite.properties";
 
     public static Properties streamsConfig() throws IOException {
         final Properties props = new Properties();

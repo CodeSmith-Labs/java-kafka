@@ -10,7 +10,7 @@ import java.util.Properties;
  * Date: 11/11/25
  */
 
-public class KafkaStreamsConfig {
+class KafkaStreamsConfig {
 
     private static final String CONFIG_PROPERTIES_FILE_PATH = "character_count.properties";
 
